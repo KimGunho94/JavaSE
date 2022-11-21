@@ -25,7 +25,6 @@ public class MainClass01 {
 		
 		// printName 메소드 호출하기
 		printName("김태호");
-		
 		setName("피카츄");
 		
 		String strName = getName();
