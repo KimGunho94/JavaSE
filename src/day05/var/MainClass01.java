@@ -49,20 +49,16 @@ public class MainClass01 {
 		c2.height = 90;
 		System.out.println("c2.cardType :" +c2.cardType);
 		System.out.println("c2.number :" +c2.number);
-		System.out.println("c2.width :" +Card.width);
-		System.out.println("c2.height :" +Card.height);
+		System.out.println("c2.width :" +c2.width);
+		System.out.println("c2.height :" +c2.height);
 		
 		System.out.println();
 		
 		System.out.println("c1.cardType :" + c1.cardType);
 		System.out.println("c1.number :" + c1.number);
-		System.out.println("c1.width :" +Card.width);
-		System.out.println("c1.height :" + Card.height);
-		
-				
+		System.out.println("c1.width :" +c1.width);
+		System.out.println("c1.height :" + c1.height);
 	}
-	
-
 }
 
 
