@@ -20,6 +20,12 @@ import day05.mypac.Card;
  * 
  * 2. 선언 위치에 따른 변수
  * 		전역변수(global 변수) - 클래스 안에 선언(멤버변수) 
+ * 							초기화를 하지않으면 default 값이 들어간다.
+ * 								참조형 - null
+ * 								기본 정수형 - 0
+ * 								기본 실수형 - 0.0
+ * 								기본 boolean - False
+ * 								
  * 		지역변수(local 변수) - 메소드 또는 생성자 안에 선언. 
  * 							중괄호 {} 안에 선언된 변수. 
  * 							반드시 초기화 해줘야 한다!! (컴파일 에러)
@@ -32,8 +38,11 @@ import day05.mypac.Card;
  */
 
 public class MainClass01 {
+	static char ch;
 	
 	public static void main(String[] args) {
+		System.out.println(ch);
+		
 		Card c1 = new Card();
 				
 		System.out.println(c1.cardType);
