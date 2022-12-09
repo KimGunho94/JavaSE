@@ -74,15 +74,17 @@ class 클래스명 extends 상속 implements 인터페이스1, 인터페이스2,
 		부모클래스타입 변수선언 = new 자식클래스();
 	```
 	
-	
+  - lang 패키지
+	- Object 클래스 - 모든클래스의 슈퍼조상 클래스 (상속 생략되어있다)
+	- Wrapper 클래스 - 8가지 기본형변수 참조형 Class로 제공. 여러 기능(메소드)가 있다.
+	- String - 불변(immutable)의 클래스 메모리에 올라간 값 변경되지 않는다. 단 new String("값"); 예외
 
-	
-	
-
-
-
-
-
-
-
-
+  - util 패키지
+	- Collection
+		- List - 가변 배열 객체, 인덱스 값 존재
+		- Set - 순서가 없는 배열 객체, 중복값 없다.
+		- Map - Key, Value로 구성되어 있다. Key는 중복값 없다. 
+	- 날짜관련
+		- Date , Calendar - 날짜관련 객체 
+		- Scaner - 시스템(콘솔) 입력받을수 있는 객체
+		- Random - 난수 생성 객체   
